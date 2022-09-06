@@ -1,0 +1,34 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: #3300ff;
+    
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover{
+    background-color: #3399ff;
+}
+
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: #33cc00f;
+}
